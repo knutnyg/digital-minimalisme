@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Minimalisme - 30 Dagers Reise</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #3D2914;
+            background: linear-gradient(135deg, #F5F1EB 0%, #EDE4D8 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            color: #F5F1EB;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(139, 69, 19, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.8);
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
+            border-left: 5px solid #D2691E;
+        }
+
+        h2 {
+            color: #8B4513;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #DEB887;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #A0522D;
+            font-size: 1.4em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .rules, .goals {
+            background: linear-gradient(135deg, #F4E4BC 0%, #E8D5B7 100%);
+        }
+
+        .experience-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5DEB3 100%);
+            border-left-color: #CD853F;
+        }
+
+        .date-entry {
+            background: rgba(139, 69, 19, 0.05);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 3px solid #D2691E;
+        }
+
+        .date-title {
+            font-weight: bold;
+            color: #8B4513;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .placeholder {
+            color: #8B7355;
+            font-style: italic;
+            background: rgba(139, 69, 19, 0.03);
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px dashed #D2691E;
+        }
+
+        .intro-quote {
+            font-style: italic;
+            font-size: 1.1em;
+            text-align: center;
+            color: #8B4513;
+            background: rgba(210, 105, 30, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #E8D5B7;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #D2691E 0%, #CD853F 100%);
+            width: 3.33%; /* Day 1 of 30 */
+            transition: width 0.3s ease;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #8B7355;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            header {
+                padding: 20px 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Digital Minimalisme</h1>
+            <div class="subtitle">En 30 dagers reise mot bevisst teknologibruk</div>
+        </header>
+
+        <div class="section">
+            <div class="intro-quote">
+                "Det handler egentlig om å være proaktiv i stedet for reaktiv i forhold til teknologien omkring deg."
+            </div>
+            
+            <h2>Hva er Digital Minimalisme?</h2>
+            <p>Digital minimalisme er en filosofi som handler om å bruke teknologi mer bevisst og målrettet i livet ditt.</p>
+            
+            <h3>Kjernetanken</h3>
+            <p>I stedet for å la teknologi styre deg, velger du selv hvilke digitale verktøy som faktisk gir verdi til livet ditt - og kutter ut resten. Det handler ikke om å bli tekno-ludditt, men om å være selektiv.</p>
+            
+            <h3>Hovedprinsipper</h3>
+            <p>Digital minimalisme bygger på at du bør ha en klar grunn til hvorfor du bruker hver teknologi. Spørsmål som "Gjør dette livet mitt bedre på en måte som er viktig for meg?" blir sentrale. Målet er å redusere støy og distraksjon for å fokusere på det som virkelig betyr noe.</p>
+            
+            <h3>Praktiske tiltak</h3>
+            <p>Folk som praktiserer digital minimalisme gjør ofte ting som å slette apper de ikke trenger, skru av unødvendige varsler, sette grenser for sosiale medier, eller ha teknologifrie soner hjemme. Noen gjør "digital detox" perioder for å vurdere forholdet sitt til teknologi på nytt.</p>
+            
+            <h3>Hvorfor det er relevant</h3>
+            <p>I en verden der vi konstant bombarderes med varsler, oppdateringer og digitale distraksjoner, kan digital minimalisme hjelpe deg å gjenvinne fokus, redusere stress og bruke tiden din på ting som faktisk gir mening for deg.</p>
+        </div>
+
+        <div class="section rules">
+            <h2>Regler for 30-dagers eksperimentet</h2>
+            <ul>
+                <li><strong>Full digital detox:</strong> Ingen digitale aviser, gaming, YouTube, podcasts, sosiale medier, iPhone eller lignende. Målet er å bryte alle ubevisste vaner og tvinge meg til heller å kjede meg enn å ta frem mobilen.</li>
+                <li><strong>Minimere nødvendig iPhone-bruk:</strong> Finn alternative løsninger (ruter, reisekort etc.)</li>
+                <li><strong>Konkret bruk kun:</strong> All nødvendig bruk av iPhone skal kun løse konkrete oppgaver som navigering, ruter osv.</li>
+            </ul>
+        </div>
+
+        <div class="section goals">
+            <h2>Mål</h2>
+            <ul>
+                <li>Være mye mer tilstede mentalt i virkeligheten, selv om jeg kjeder meg</li>
+                <li>Mindre enn 3 timer skjermtid i uken</li>
+                <li>Finne nye, gjerne fysiske hobbyer</li>
+                <li>Kaste bort mye mindre tid på tankeløs passiv aktivitet</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Forberedelser</h2>
+            <ul>
+                <li>Sørget for å ha tilgang til bankID-brikke</li>
+                <li>Kjøpt meg en dum telefon med tvillingsim</li>
+                <li>Informert venner om at jeg er mye mindre tilgjengelig på internett</li>
+            </ul>
+        </div>
+
+        <div class="section experience-section">
+            <h2>Reisen - Daglige erfaringer</h2>
+            
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <p style="text-align: center; color: #8B7355; font-size: 0.9em;">Dag 1 av 30</p>
+
+            <div class="date-entry">
+                <div class="date-title">Erfaringer dag 04.08.25 - Dag 1</div>
+                <div class="placeholder">Her kommer mine første erfaringer fra dag 1...</div>
+            </div>
+
+            <div class="date-entry">
+                <div class="date-title">Erfaringer etter første uke</div>
+                <div class="placeholder">Her kommer refleksjoner etter den første uken...</div>
+            </div>
+
+            <div class="date-entry">
+                <div class="date-title">Erfaringer etter andre uke</div>
+                <div class="placeholder">Her kommer refleksjoner etter den andre uken...</div>
+            </div>
+
+            <div class="date-entry">
+                <div class="date-title">Erfaringer etter tredje uke</div>
+                <div class="placeholder">Her kommer refleksjoner etter den tredje uken...</div>
+            </div>
+
+            <div class="date-entry">
+                <div class="date-title">Erfaringer etter fjerde uke</div>
+                <div class="placeholder">Her kommer refleksjoner etter den fjerde (siste) uken...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Konklusjon og hva jeg tar med meg videre</h2>
+            <div class="placeholder">
+                Her kommer mine sluttrefleksjoner og konklusjoner fra de 30 dagene, samt hvilke vaner og innsikter jeg tar med meg videre i livet...
+            </div>
+        </div>
+
+        <footer>
+            <p>En personlig reise mot mer bevisst teknologibruk • August 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
